@@ -203,7 +203,6 @@ on post-fs-data
 
     # create basic filesystem structure
     mkdir /data/misc 01771 system misc
-    mkdir /data/misc/bluetoothd 0770 bluetooth bluetooth
     mkdir /data/misc/adb 02750 system shell
     mkdir /data/misc/bluedroid 0770 bluetooth net_bt_stack
     mkdir /data/misc/bluetooth 0770 system system
